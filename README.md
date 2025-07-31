@@ -43,12 +43,10 @@ meal-plan-backend/
 
 ### 1. Clone the repository
 
-```bash
 git clone https://github.com/elenabztw/meal-plan-backend.git
 cd meal-plan-backend
 
 2. Install dependencies
-bash
 npm install
 
 3. Add your MongoDB connection string
@@ -58,7 +56,6 @@ MONGODB_LINK=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/Meal
 Replace <username> and <password> with your MongoDB Atlas credentials.
 
 4. Run the server
-bash
 node server.js
 
 You should see: Connected to MongoDB
@@ -77,4 +74,8 @@ DELETE	/api/meals/:id	Delete a meal by ID
 CORS is enabled to allow requests from:
 http://localhost:5173
 If your frontend runs on a different port or domain, update the CORS origin in server.js.
+
+## 🔗 Live Demo
+
+[Check it out on Render](https://meal-plan-backend-60rq.onrender.com/)
 
